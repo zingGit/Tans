@@ -90,6 +90,12 @@ export default class Helloworld extends cc.Component {
 
             if(resp) {
 
+                if(cc.sys.isMobile && cc.sys.isBrowser) {
+
+                    window.location.href = resp.addr
+                    return
+                }
+              
                 cc.sys.openURL(resp.addr)
             }
             

@@ -14,5 +14,5 @@ export default class Api {
 }
 
 
-// export const GAME_API_ADDR = "http://api.botixapi.xyz"
-export const GAME_API_ADDR = "http://192.168.0.234:20083"
+export const GAME_API_ADDR = "https://api.botixapi.xyz"
+// export const GAME_API_ADDR = "http://192.168.0.234:20083"
